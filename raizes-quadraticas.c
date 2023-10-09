@@ -408,7 +408,7 @@ voltar:
 
 void imprimir() {
     int op;
-    printf("Calcular raizes de uma equacao quadratica...");
+    printf("Calcular raizes de uma equacao quadratica...\nDigite um valor e prima enter:");
     do {
         printf("\nDigitar: \n   (7) para calcular forma reduzida \nou (8) para calcular forma Fracionaria \nou (5) para sair : ");
         scanf("%d", &op);
