@@ -271,7 +271,7 @@ voltar:
 
         // impressao
         printf("\nx1 = [ (%d/%d) + (sqrt(%d/%d))*I ] * (%d/%d)", (int)parteReal1, (int)parteReal2, (int)parteImaginaria1, (int)parteImaginaria2, F1, F2);
-        printf("\nx1 = [ (%d/%d) - (sqrt(%d/%d))*I ] * (%d/%d)", (int)parteReal1, (int)parteReal2, (int)parteImaginaria1, (int)parteImaginaria2, F1, F2);
+        printf("\nx2 = [ (%d/%d) - (sqrt(%d/%d))*I ] * (%d/%d)", (int)parteReal1, (int)parteReal2, (int)parteImaginaria1, (int)parteImaginaria2, F1, F2);
     }
     else {
         // simplificacao
