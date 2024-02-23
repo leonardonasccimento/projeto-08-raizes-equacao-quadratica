@@ -64,7 +64,7 @@ voltar:
 
         // impressao
         printf("\nx1 = %f + %f*I", (float)parteReal, (float)parteImaginaria);
-        printf("\nx1 = %f - %f*I", (float)parteReal, (float)parteImaginaria);
+        printf("\nx2 = %f - %f*I", (float)parteReal, (float)parteImaginaria);
     }
     else {
         printf("\nDelta = %f", delta);
@@ -78,7 +78,7 @@ voltar:
 
         // impressao
         printf("\nx1 = %f", x1);
-        printf("\nx1 = %f", x2);
+        printf("\nx2 = %f", x2);
     }
 }
 
