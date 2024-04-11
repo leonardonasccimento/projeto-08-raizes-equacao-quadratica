@@ -478,6 +478,7 @@ void imprimir()
     printf("Calcular raizes de uma equacao quadratica...\nDigite um valor e prima enter:");
     do
     {
+        printf("\n");
         printf("\nDigitar: \n   (7) para calcular forma reduzida \nou (8) para calcular forma Fracionaria \nou (5) para sair : ");
         scanf("%d", &op);
 
@@ -493,8 +494,6 @@ void imprimir()
             continue;
         }
 
-        printf("\nDigitar (9) para um novo calculo ou (5) para sair : ");
-        scanf("%d", &op);
     } while (op != 5);
 }
 
